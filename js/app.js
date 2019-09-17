@@ -32,7 +32,7 @@ var Enemy = function (x, y, player) {
     // The image/sprite for our enemies, this uses
     // a helper we've provided to easily load images
     this.sprite = 'images/enemy-bug.png';
-    this.width = 100;
+    this.width = 75;
     this.height = 70;
 };
 
@@ -46,7 +46,7 @@ Enemy.prototype.update = function (dt) {
 
     if (this.x > 505){
         this.x = 0
-        this.speed = 5 + Math.round(Math.random() * 10, 0);
+        this.speed = 4 + Math.round(Math.random() * 10, 0);
     }
 
     this.checkCollisions();
@@ -80,8 +80,8 @@ class Player {
         this.sprite = sprite;
         this.x = x;
         this.y = y;
-        this.width = 90;
-        this.height = 90;
+        this.width = 70;
+        this.height = 70;
     }
 
     /**
