@@ -1,3 +1,5 @@
+
+
 # Project - Classic Arcade Game Clone
 
 ## Description
@@ -6,6 +8,12 @@ This is a clone game in the JavaScript language for the classic arcade game Frog
 ## Game Architecture
 
 This game application uses Object-Oriented Programming to model the objects (entities) which interact in the game (player and enemies).
+
+## How to Play?
+
+Just open the `index.html` in your favorite web browser.
+
+Once the games has been started, just use the arrow keys (↑, →, ↓, ←) to move the boy (player) around the screen.
 
 ## Dependencies
 * Toastr: Shows short messages.
